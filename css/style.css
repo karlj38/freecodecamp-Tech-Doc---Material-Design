@@ -1,0 +1,51 @@
+#navbar {
+  top: 0;
+  width: 200px;
+  display: none;
+  z-index: 10;
+}
+
+#fcc-logo {
+  width: 90%;
+}
+
+#overlay {
+  display: none;
+}
+
+#main-doc,
+footer {
+  margin-left: 200px;
+}
+
+#content {
+  padding: 5% 2%;
+}
+
+section {
+  max-width: 90%;
+  margin: auto;
+  /* padding-bottom: 50px; */
+  padding: 20px;
+}
+.fork {
+  position: relative;
+  bottom: -40px;
+  left: 85%;
+}
+
+hr {
+  margin: 5% auto;
+  width: 40%;
+  max-width: 500px;
+}
+@media only screen and (min-width: 993px) {
+  #close {
+    display: none;
+  }
+
+  section {
+    max-width: 800px;
+    margin: auto;
+  }
+}
